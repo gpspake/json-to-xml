@@ -1,5 +1,5 @@
-var fs = require('fs'),
-    xml2js = require('xml2js');
+import fs from 'fs';
+import xml2js from 'xml2js';
 
 var parser = new xml2js.Parser();
 fs.readFile(__dirname + '/books.xml', function(err, data) {
