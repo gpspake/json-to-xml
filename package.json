@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gpspake/json-to-xml/issues"
   },
-  "homepage": "https://github.com/gpspake/json-to-xml#readme"
+  "homepage": "https://github.com/gpspake/json-to-xml#readme",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
 }
