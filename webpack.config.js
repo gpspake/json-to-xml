@@ -20,7 +20,13 @@ module.exports = {
             ]
           }
         }
-      }
+      },
+      {
+        test: /\.xml$/,
+        use: {
+          loader: 'xml-loader'
+        }
+      } // will load all .xml files with xml-loader by default
     ]
   }
 };
