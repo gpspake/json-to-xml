@@ -26,7 +26,7 @@ module.exports = {
         use: {
           loader: 'xml-loader'
         }
-      } // will load all .xml files with xml-loader by default
+      }
     ]
   }
 };
