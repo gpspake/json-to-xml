@@ -22,6 +22,7 @@
     "@babel/core": "^7.0.0-beta.40",
     "@babel/preset-env": "^7.0.0-beta.40",
     "babel-loader": "^8.0.0-beta.0",
+    "jsontoxml": "^1.0.0",
     "webpack": "^3.11.0",
     "xml-loader": "^1.2.1",
     "xml2js": "^0.4.19"
